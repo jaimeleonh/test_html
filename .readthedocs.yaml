@@ -1,5 +1,8 @@
 
 version: 2
 build:
-    commands:
-        - ls
+      os: ubuntu-20.04
+      commands:
+          - echo "Hello world!"
+      tools:
+          python: "3"
